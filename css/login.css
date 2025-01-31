@@ -54,4 +54,28 @@ body{
 .loginInputsContainer{
     margin-top: 20px;
 }
+.loginInputsContainer input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    outline: none;
+    font-size: 18px;
+}
+.btn button{
+    margin: center;
+    width: 50%;
+    padding: 15px 25px;
+    background: #f685a2;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: black;
+    background-color: #fff;
+}
 
