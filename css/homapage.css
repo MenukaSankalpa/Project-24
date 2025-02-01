@@ -1,0 +1,9 @@
+.header{
+    width: 100%;
+    height: 20px;
+    background: #f685a1;
+}
+.banner{
+    background-image: url("../photo/home.jpg");
+    background: cover;
+}
