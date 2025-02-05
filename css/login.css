@@ -106,7 +106,7 @@ body{
 .homepageContainer{
     width: 100%;
     max-width: 900px;
-    height: 80vh;
+    height: 50vh;
     margin: 0 auto;
 }
 .bannerHeader h1{
