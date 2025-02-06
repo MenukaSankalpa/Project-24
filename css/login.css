@@ -224,11 +224,16 @@ p.bannerTagline{
 }
 .socials{
     text-align: center;
-    padding: 50px 0 20px 0px;
+    min-height: 10px;
+    padding: 10px 0;
 }
-.socialText{
+.socials.homepageContainer
+h3.socialHeader{
+    font-size: 25px;
+}
+p.socialText{
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     color: #848484;
 }
 .socialIconsContainer a{
@@ -246,3 +251,10 @@ p.bannerTagline{
     background: #f8a4b9;
     transition: 0.3s all;
 }
+.footer {
+    background: #e3e3e3;
+    margin-top: auto; 
+    margin-bottom: 0; 
+    padding: 10px 0; 
+    text-align: center;
+}    
