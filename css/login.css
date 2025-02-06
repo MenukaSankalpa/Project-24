@@ -227,9 +227,15 @@ p.bannerTagline{
     min-height: 10px;
     padding: 10px 0;
 }
-.socials.homepageContainer
+.socials.homepageContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
 h3.socialHeader{
     font-size: 25px;
+    padding-top: 50px;
 }
 p.socialText{
     margin-top: 15px;
@@ -253,8 +259,17 @@ p.socialText{
 }
 .footer {
     background: #e3e3e3;
-    margin-top: auto; 
-    margin-bottom: 0; 
-    padding: 10px 0; 
     text-align: center;
-}    
+    height: 20vh;
+}
+.footer a {
+    color: #848484;
+    margin-left: 8px;  
+    margin-right: 8px; 
+    text-decoration: none;
+    font-size: 14px; 
+    display: inline-block; 
+}
+.footer a:hover {
+    color: #f685a2;  
+}
