@@ -201,6 +201,9 @@ p.bannerTagline{
     border-radius: 15px;
     border: none;
 }
+.formContainer input:focus{
+    outline: none;
+}
 .formContainer button{
     position: absolute;
     right: 0;
@@ -218,4 +221,28 @@ p.bannerTagline{
     width: 100%;
     padding-left: 180px;
     padding-top: 50px;
+}
+.socials{
+    text-align: center;
+    padding: 50px 0 20px 0px;
+}
+.socialText{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #848484;
+}
+.socialIconsContainer a{
+    font-size: 23px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 7px;
+    background: #d4d4d4;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 20px;
+}
+.socialIconsContainer a:hover{
+    background: #f8a4b9;
+    transition: 0.3s all;
 }
